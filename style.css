@@ -251,8 +251,9 @@ main {
 .container-parent{
     display: grid;
     grid-template-columns: repeat(2,2fr);
-    gap:80px;
+    gap:92px;
     padding:20px;
+    margin-top: -20px;
 
    
 }
@@ -286,6 +287,56 @@ marquee{
     color: black;
 }
 
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+    background-color: #01ACFD;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:30px;
+    color:#FFFFFF;
+    height: 300px;
+
+}
+.footer-1{
+    margin-left:40px;
+    margin-top: 30px;
+}
+.footer-2{
+    margin-left:200px;
+ 
+}
+.footer-3{
+   font-size: 20px;
+   margin-left:200px;
+   
+}
+.footer-2 ul li{ 
+    margin-top: 10px;
+    margin-left: -80px;
+}
+.footer-3 ul li{
+  
+   padding: 5px;
+   
+}
+.footer-3 ul{
+    margin-left: -30px;
+    padding: 10px;
+}
+.foot-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.title{
+    font-weight: 800;
+}
+.foot-3-title{
+    font-weight: 800;
+    margin-left: -15px;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -301,14 +352,13 @@ marquee{
     margin: 0px 10px;
   }
   .navbar-icon {
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: -75px;
   }
-  nav {
+  nav{
     border: 1px solid orange;
     padding: 10px;
-  }
-
+}
   .banner-content {
     flex-direction: column-reverse;
     justify-content: center;
@@ -369,4 +419,65 @@ marquee{
     margin-top:28px;
     font-size: 13px;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    gap: 20px;
+    padding: 20px;
+    height: auto;
+  }
+
+.foot-logo
+{
+  margin-left: -10px;
+}
+  .footer-1 {
+    margin-left: 0;
+  }
+
+  .footer-2 {
+    margin-left: 0;
+  }
+
+  .footer-3 {
+    margin-left: 0;
+  }
+
+  .footer-3 ul {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-3 ul li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .foot-3-title {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+
+  .title, .foot-title {
+    font-size: 20px;
+  }
+
+  .foot-title {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .footer-1 img {
+    width: 80px;
+    height: auto;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
