@@ -163,6 +163,116 @@ main {
   width: 100%;
   background: linear-gradient(180deg, white, #fff4dc);
 }
+
+
+
+
+.our-story{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin:20px;
+    margin: 50px 0px;
+}
+.our-story-cont{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.story-button{
+    position: relative;
+    top: -40px;
+    left:20px;
+    width: 150px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3CD8E8;
+    color: white;
+   
+}
+.story-btn{
+    background-color: #95B226;
+}
+.story-btn2{
+    background-color: #5D58F0;
+}
+.story-1{
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto;
+    margin-left: 20px;
+   
+    
+    
+}
+
+.story-1-title{
+    margin:20px 0px;
+    padding: 20px;
+    font-size:24px ;
+    font-weight: 800;
+}
+.story-1-desc{
+    margin:15px 0px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.big-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+.story-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.story-desc{
+ margin-top:-30px;
+ margin-bottom: 10px;
+    font-weight: 800;
+    padding:20px;
+}
+
+.story-container{
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.container-parent{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap:80px;
+    padding:20px;
+
+   
+}
+.bottom-btn {
+    background-color: #202020;
+    color: #FFFFFF;
+    margin: 60px auto;
+    display: block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+}
+.mobile-sec{
+    display: none;
+}
+
 .mobile-device {
   display: none;
 }
@@ -170,6 +280,13 @@ main {
 mobile-width {
   width: 50%;
 }
+
+marquee{
+    font-size: 30px;
+    color: black;
+}
+
+
 
 @media screen and (max-width: 576px) {
   .nav-bar ul li,
@@ -210,4 +327,46 @@ mobile-width {
   .arrow-section {
     display: none;
   }
+
+  .story-1{
+    display: none;
+}
+
+.second-sec{
+    display: none;
+}
+.mobile-sec{
+
+    display:contents;
+   
+}
+.mobile-cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+}
+.bottom-btn{
+   
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin:20px 0px;
+  
+}
+.story-img{
+    width: 100%;
+
+}
+.story-container{
+    width: 100%;
+    height:95%;
+    gap:5px;
+ 
+}
+.story-btn{
+    width: 70%;
+    height:70%;
+    margin-top:28px;
+    font-size: 13px;
+}
 }
